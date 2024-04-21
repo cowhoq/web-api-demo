@@ -1,0 +1,8 @@
+cn\edu\bupt\webapi\demo\mapper\BookMapper.class
+cn\edu\bupt\webapi\demo\exception\GlobalControllerExceptionHandler.class
+cn\edu\bupt\webapi\demo\common\Result.class
+cn\edu\bupt\webapi\demo\controller\AnotherBookController.class
+cn\edu\bupt\webapi\demo\controller\BookController.class
+cn\edu\bupt\webapi\demo\exception\NotFoundException.class
+cn\edu\bupt\webapi\demo\entity\Book.class
+cn\edu\bupt\webapi\demo\WebApiDemoApplication.class

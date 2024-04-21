@@ -1,0 +1,1 @@
+INSERT INTO `book` VALUES (1, '测试数据');
