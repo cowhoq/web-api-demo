@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.bupt.webapi.demo.mapper.BookMapper">
+
+    <select id="selectBooksWithPagination" resultType="cn.edu.bupt.webapi.demo.exception.entity.Book">
+        SELECT id, title, author, isbn, page_count FROM bookstore.books
+        ORDER BY id
+        LIMIT #{size} OFFSET #{offset}
+    </select>
+
+</mapper>
